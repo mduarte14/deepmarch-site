@@ -10,16 +10,17 @@
 <main>
 <p class="back"><a href="index.html">&larr; Deepmarch</a></p>
 <h1>Privacy Policy</h1>
-<p class="meta">Deepmarch, by the Deepmarch team. Last updated: 27 October 2026.</p>
+<p class="meta">Deepmarch, by the Deepmarch team. Last updated: 28 October 2026.</p>
 
 <h2>Short version</h2>
 <ul>
   <li>The game is fully playable offline. Your save and settings stay on your device.</li>
   <li>The game only sends data if you choose <strong>Join</strong> on the global leaderboards. That is optional, and you
       can turn it off at any time.</li>
-  <li>If you do join, we store your display name, class and run results under a random player ID. We do not ask for or
-      collect your email address, real name, contacts, location or advertising ID.</li>
-  <li>The game shows no ads and contains no analytics or tracking SDKs. We never sell or share your data.</li>
+  <li>If you do join, we store your display name, class and run results under a random player ID, plus anonymous gameplay
+      stats (how your runs end and what killed you) that we use to balance the game. We do not ask for or collect your
+      email address, real name, contacts, location or advertising ID.</li>
+  <li>The game shows no ads and contains no third-party analytics or tracking SDKs. We never sell or share your data.</li>
   <li>You can delete everything we store about you, at any time, from inside the game.</li>
 </ul>
 
@@ -42,11 +43,25 @@ and when you die.</p>
   <li>technical details needed to keep the boards fair: game version, whether it is a debug build, and your platform
       (Windows or Android).</li>
 </ul>
+<p><strong>Anonymous gameplay stats (game balance).</strong> Since 28 October 2026, joining the global leaderboards also
+sends, once per finished run, a small record of how the run went. This is the same opt-in: there is no separate switch, and
+nothing is sent unless you have joined (and accepted the updated wording, if you joined earlier). It contains:</p>
+<ul>
+  <li>how the run ended (death or abandoned), furthest distance, danger level and area reached, level, run time, kills, elite
+      and boss kills, chests, gold and Soul Shards earned or lost, waygate use;</li>
+  <li>if you died: what killed you (enemy type, whether it was an elite or a boss, its level), the size and type of the
+      killing hit, the damage you took from each enemy in the last five seconds, and your maximum life and armour;</li>
+  <li>your build at the end of the run: equipped skill mastery, passive tree choices, boons taken, a summary of equipped gear
+      (slot, rarity, item level, legendary name) and your permanent upgrade ranks.</li>
+</ul>
+<p>It is linked only to your random player ID, never to your name, and is not shown on the leaderboards. Runs from debug
+builds and debug-assisted runs are never included.</p>
 <p><strong>What is not sent:</strong> email, real name, phone number, contacts, precise or approximate location, device or
 advertising identifiers, your save file or your items.</p>
 <p><strong>Why:</strong> to show global rankings, your own rank, and to detect impossible or cheated runs (runs that fail the
 automatic plausibility checks are stored as rejected or flagged so the rules can be tuned, and rejected runs are deleted
-after 30 days).</p>
+after 30 days). The gameplay stats are used only to understand and balance the game, for example which enemies or depths
+kill players too often.</p>
 <p><strong>Legal basis</strong> (for players in the EU/EEA/UK): your consent, given by choosing <strong>Join</strong>. You can
 withdraw it at any time by turning the global leaderboard off.</p>
 
@@ -58,13 +73,14 @@ leaderboard tables. See <a href="https://supabase.com/privacy">Supabase's privac
 
 <h2>4. How long we keep it</h2>
 <p>Your player record and accepted runs are kept while you take part in the leaderboards, until you delete them. Rejected
-runs are deleted automatically after 30 days.</p>
+runs are deleted automatically after 30 days. Anonymous gameplay stats are deleted automatically after 180 days (or
+immediately when you delete your online data).</p>
 
 <h2>5. Your choices and rights</h2>
 <ul>
   <li><strong>Stop sending data:</strong> Settings &rarr; Account &rarr; turn off <em>Global leaderboard</em>.</li>
   <li><strong>Delete your data:</strong> Settings &rarr; Account &rarr; <em>Delete my online data</em> immediately erases your
-      player record and all your runs from the server. <em>Reset online identity</em> does the same and starts a fresh,
+      player record, all your runs and your gameplay stats from the server. <em>Reset online identity</em> does the same and starts a fresh,
       unlinked ID.</li>
   <li>Uninstalling the game or clearing its data removes your local save and the key that links you to your online
       record; online records you didn't delete then stay anonymous. You can still ask us to delete them (see Contact),
